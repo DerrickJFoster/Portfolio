@@ -8,6 +8,7 @@ class Contact extends Component {
       <br/>
       <h3>Get in touch</h3>
         <h6>970•631•7889</h6>
+        <h6>Derrick.J.Foster@gmail.com</h6>
       </div>
     )
   }

@@ -93,3 +93,26 @@ hr {
 }
 
 /* ABOUT ------------------------------ */
+.contact {
+  margin-left: 250px;
+  margin-right: 250px;
+}
+.contact h1 {
+  /* text-decoration: underline; */
+  color: white;
+  font-size: 3em;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.contact h3 {
+  color: white;
+  font-size: 30px;
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+
+.contact h6 {
+  color: white;
+  font-size: 20px;
+}
