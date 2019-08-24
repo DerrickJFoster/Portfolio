@@ -16,7 +16,7 @@ function App() {
 
     <Router>
     <Projects />
-    <Route path='/about' component={About} />
+    <About />
     </Router>
     </>
   );

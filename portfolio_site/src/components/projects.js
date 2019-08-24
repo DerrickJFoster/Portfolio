@@ -8,8 +8,8 @@ class Projects extends Component {
     return (
       <div className='projects'>
         <h1>Featured Projects</h1>
+        <hr />
         <div className="container">
-
             <ul>
               <li>
                 <a href='https://derrickjfoster.github.io/ironximpact/#/'><img className='thumbnail'src={Ironximpact}></img></a>
@@ -22,6 +22,7 @@ class Projects extends Component {
             </ul>
 
         </div>
+        <hr/>
       </div>
     )
   }
