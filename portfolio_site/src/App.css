@@ -1,33 +1,44 @@
-.App {
+body {
+  /* background-color: black; */
+}
+
+/* HEADER --------------------------------- */
+.header {
+  display: block;
+  background: black;
+  width: 100%;
+  height:600px;
+  font-family: arial;
+}
+.title-name {
   text-align: center;
+  width: 100%;
+  line-height: 400px;
+  font-size: 9em;
+  text-shadow: 0.1em 0.1em 0.4em black
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.d-block, .w-100 {
+  height: 600px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.carousel h3{
+  font-size: 50px;
+  text-shadow: 0.1em 0.1em 0.4em black
 }
 
-.App-link {
-  color: #61dafb;
+.carousel p{
+  font-size: 20px;
+  text-shadow: 0.1em 0.1em 0.4em black
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+/* PROJECTS ------------------------------ */
+.projects {
+  background-color: blue;
+}
+
+.projects h1{
+background-color: blue;
 }
