@@ -1,5 +1,5 @@
 body {
-  /* background-color: black; */
+  background-color: black;
 }
 
 /* HEADER --------------------------------- */
@@ -35,10 +35,32 @@ body {
 
 
 /* PROJECTS ------------------------------ */
-.projects {
-  background-color: blue;
+
+.projects{
+  margin-top: 30px;
+}
+.projects h1 {
+  text-align: center;
+  text-decoration: underline;
+  color: white;
+  font-size: 3em;
+  margin-bottom: 30px;
 }
 
-.projects h1{
-background-color: blue;
+.container {
+  flex-direction: row;
+  margin-top: 30px;
+}
+
+.thumbnail {
+  width: 400px;
+}
+
+.thumbnail:hover{
+box-shadow:0px 0px 30px white;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+transform: scale(1.03);
 }
