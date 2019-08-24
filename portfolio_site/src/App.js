@@ -8,6 +8,7 @@ import Header from './components/header'
 import Home from './components/home'
 import Projects from './components/projects'
 import About from './components/about'
+import Contact from './components/contact'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
     <Router>
     <Projects />
     <About />
+    <Contact />
     </Router>
     </>
   );
