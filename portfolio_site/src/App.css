@@ -35,24 +35,27 @@ body {
 
 /* PROJECTS ------------------------------ */
 
-.projects{
-  margin-top: 30px;
-}
-.projects h1 {
+
+.projects-header h1 {
   text-align: center;
-  /* text-decoration: underline; */
   color: white;
   font-size: 3em;
   margin-bottom: 30px;
-}
-
-.container {
-  flex-direction: row;
   margin-top: 30px;
 }
 
+.container {
+  display: flex;
+  flex-flow: row;
+  margin-top: 30px;
+  margin-left: 0;
+  padding: 0;
+}
+
 .thumbnail {
+  display: inline-flex;
   width: 400px;
+  margin-left: 65px;
 }
 
 .thumbnail:hover{
@@ -75,6 +78,7 @@ hr {
   /* display: block; */
   margin-left: 150px;
   margin-right: 150px;
+
 }
 
 .about h1 {
